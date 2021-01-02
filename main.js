@@ -76,7 +76,7 @@ sr.reveal(".contact__header", { delay: 300 });
 sr.reveal(".contact__form", { delay: 400 });
 
 const buttomSr = ScrollReveal({
-  origin: "right",
+  origin: "bottom",
   distance: "250px",
   duration: 1000,
   reset: true,
