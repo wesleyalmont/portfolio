@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/animation.css">
+    <script src="https://kit.fontawesome.com/ed0530210e.js"></script>
+    <title>Wesley Alves Monteiro | Web Developer</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar__header" id="navbar">
+        <div class="nav__logo">WESLEY MONTEIRO</div>
+
+        <div class="nav__list grid" id="nav-menu">
+          <div class="nav__links">
+            <li class="nav__item">
+              <a href="#" class="nav__link"> Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"> Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link "> Trabalhos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> Habilidades</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"> Contato</a>
+            </li>
+
+            <li class="nav__item">
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </li>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="nav__toggle" id="nav-toggle"
+            ><img src="/images/menu.svg" alt="Menu Button"
+          /></a>
+        </div>
+      </nav>
+
+      <main class="main__container">
+        <section class="introduce__section grid" id="home">
+          <div class="introduce__div">
+            <p class="introduce__text">
+              Olá, eu sou o <br />
+              <span class="introduce__name">Wesley.</span><br />
+              O seu <br>
+              <span class="introduce__name">Web Developer</span><br />
+            </p>
+          </div>
+
+          <div class="introduce__image">
+            <img src="/images/foto-perfil.jpg" alt="" />
+          </div>
+
+          <div class="introduce__display">
+            <div class="introduce__items">
+              <a href="#">LinkeIn<i class="fab fa-linkedin"></i> </a>
+              <a href="#">GitHub<i class="fab fa-github-square"></i> </a>
+              <a href="#">Bëhance<i class="fab fa-behance-square"></i> </a>
+            </div>
+
+            <div class="introduce__contact__me">
+              <button class="button__contact">Entrar em contato</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="about__section  grid" id="about">
+        <div class="about__header">
+          <div class="about__header  title">
+            <span class="title__slash">/</span>Olá, tudo bem contigo?
+          </div>
+        </div>
+        <div class="about__content">
+          <div class="about__text text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            quisquam expedita harum aliquid magnam a et, magni impedit, dolor
+            obcaecati inventore earum ex sapiente deleniti praesentium
+            cupiditate, aliquam nostrum officia?
+            <div class="about__me">
+                <img src="images/foto-perfil.jpg" class="about__me__image"></img>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works__section  grid" id="works">
+        <div class="works__header">
+          <div class="works__title__header title"><span class="title__slash">/</span>Trabalhos</div>
+        </div>
+        <div class="works__list grid">
+            <button class="button__works_left display_button"><i class="fas fa-arrow-left"></i></button>
+                <li class="works__item"><i class="far fa-images"></i></li>
+            <button class="button__works_right display_button"><i class="fas fa-arrow-right"></i></button>
+            </div>
+      </section>
+      
+      <section class="skills__section grid" id="skills">
+
+        <div class="skills__header">
+          <div class="skills__title__header title"><span class="title__slash">/</span>Habilidades e Cursos</div>
+        </div>
+
+        <div class="skills_graduation">
+            <div class="skills__content">
+                    <i class="skills__icon_grad fas fa-user-graduate"></i>
+                    <header class="skills__graduate title">Graduando em</header>
+                    <p class="skills_text title">Técnologia em Análise e Desenvolvimento de Sistemas</p>
+                </div>
+            </div>
+            <header class="skills_language_title title">Linguagens de Programação e Frameworks</header>
+        <div class="skills__list grid">
+                
+                <li class="skills__item html"><i class="fab fa-html5   skill__icon"></i></li>
+                <li class="skills__item css"><i class="fab fa-css3-alt skill__icon"></i></li>
+                <li class="skills__item javascript"><i class="fab fa-js-square skill__icon"></i></li>
+                <li class="skills__item php"><i class="fab fa-php skill__icon"></i></li>
+                <li class="skills__item nodejs"><i class="fab fa-node-js skill__icon"></i></li>
+                <li class="skills__item angular"><i class="fab fa-angular skill__icon"></i></li>
+                <li class="skills__item react"><i class="fab fa-react skill__icon"></i></li>
+                <li class="skills__item vuejs"><i class="fab fa-vuejs skill__icon"></i></li>
+                <li class="skills__item sql"><i class="fas fa-database skill__icon"></i></i></li>
+                
+            </div>
+            <div></div>
+      </section>
+      <section class="contact_section  grid" id="contact">
+        <div class="contact__header">
+          <div class="contact__title__header title"><span class="title__slash">/</span>Contato</div>
+        </div>
+        <div class="contact__buttons">
+            <i class="fab fa-whatsapp-square"></i>
+            <i class="fas fa-phone-square-alt"></i>
+            <i class="fab fa-youtube-square"></i>
+        </div>
+            <form action="#" class="contact__form">
+                <label for="fname">Primeiro Nome</label>
+                <input type="text" id="fname" name="primeiro_nome">
+                <label for="lname">Sobrenome</label>
+                <input type="text" id="lname" name="ultimo_nome">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="ultimo_nome">
+                <label for="subject">Mensagem</label>
+                <textarea type="text" id="subject"></textarea>
+                <input  class="contact__submit" type="submit" >
+            </form>
+      <!-- end of container -->
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

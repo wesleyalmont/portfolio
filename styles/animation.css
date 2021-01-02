@@ -1,0 +1,90 @@
+/* SKILLS PROGRESS BARS*/
+.skills__item.html::after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 83%;
+  }
+}
+
+.skills__item.css::after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 60%;
+  }
+}
+
+.skills__item.javascript::after {
+  animation-name: javascript;
+}
+
+@keyframes javascript {
+  to {
+    width: 50%;
+  }
+}
+
+.skills__item.php::after {
+  animation-name: php;
+}
+
+@keyframes php {
+  to {
+    width: 18%;
+  }
+}
+
+.skills__item.nodejs::after {
+  animation-name: nodejs;
+}
+
+@keyframes nodejs {
+  to {
+    width: 18%;
+  }
+}
+
+.skills__item.angular::after {
+  animation-name: angular;
+}
+
+@keyframes angular {
+  to {
+    width: 18%;
+  }
+}
+
+.skills__item.react::after {
+  animation-name: react;
+}
+
+@keyframes react {
+  to {
+    width: 18%;
+  }
+}
+
+.skills__item.vuejs::after {
+  animation-name: vuejs;
+}
+
+@keyframes vuejs {
+  to {
+    width: 18%;
+  }
+}
+
+.skills__item.sql::after {
+  animation-name: sql;
+}
+
+@keyframes sql {
+  to {
+    width: 70%;
+  }
+}
