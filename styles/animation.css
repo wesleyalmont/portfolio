@@ -29,11 +29,11 @@
   }
 }
 
-.skills__item.php::after {
-  animation-name: php;
+.skills__item.java::after {
+  animation-name: java;
 }
 
-@keyframes php {
+@keyframes java {
   to {
     width: 18%;
   }

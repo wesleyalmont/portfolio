@@ -1,7 +1,7 @@
 const navMenu = document.getElementById("nav-menu"),
   toggleMenu = document.getElementById("nav-toggle"),
   closeMenu = document.getElementById("nav-close");
-navbar = document.getElementById("navbar");
+  navbar = document.getElementById("navbar");
 
 /* SHOW */
 toggleMenu.addEventListener("click", () => {
@@ -48,7 +48,7 @@ const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
   duration: 2000,
-  reset: true,
+  reset: false,
 });
 
 sr.reveal(".introduce__text", { delay: 200 });
@@ -79,7 +79,7 @@ const buttomSr = ScrollReveal({
   origin: "bottom",
   distance: "250px",
   duration: 1000,
-  reset: true,
+  reset: false,
 });
 
 buttomSr.reveal(".button__contact", { delay: 700 });
